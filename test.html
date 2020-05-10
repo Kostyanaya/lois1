@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №1</title>
+    <script src = "script.js"></script>
+    <link rel="stylesheet" href="testStyle.css">
+</head>
+<body>
+<div align = "center">
+    <label > Является ли формула ДНФ? </label>
+    <br>
+    <label id="testFormula">(A|B)</label>
+    <button id="buttonYes" onclick="testKnowledge(this)"> Да </button>
+    <button id="buttonNo" onclick="testKnowledge(this)"> Нет </button>
+    <button id="buttonNext" onclick="createFormula()"> Следующая формула </button>
+    <br>
+    <label id="textResult"> Результат: </label>
+    <label id="testResult"></label>
+    <br>
+    <button id="buttonBack" onClick='location.href="index.html"'>
+        Вернуться к вводу формулы
+    </button>
+</div>
+</body>
+</html>
